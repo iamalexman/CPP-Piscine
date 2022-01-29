@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46157007279C5F540038A4FB /* ShrubberyCreationForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46156FFC279C5F540038A4FB /* ShrubberyCreationForm.cpp */; };
+		46157008279C5F540038A4FB /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 46156FFD279C5F540038A4FB /* Makefile */; };
+		46157009279C5F540038A4FB /* Bureaucrat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46156FFE279C5F540038A4FB /* Bureaucrat.cpp */; };
+		4615700A279C5F540038A4FB /* PresidentialPardonForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46157000279C5F540038A4FB /* PresidentialPardonForm.cpp */; };
+		4615700B279C5F540038A4FB /* RobotomyRequestForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46157004279C5F540038A4FB /* RobotomyRequestForm.cpp */; };
+		4615700C279C5F540038A4FB /* Form.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46157006279C5F540038A4FB /* Form.cpp */; };
+		4615700F279C63D50038A4FB /* Intern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4615700D279C63D50038A4FB /* Intern.cpp */; };
+		467513B4279C009D00D296C6 /* Form.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467513B2279C009D00D296C6 /* Form.cpp */; };
+		467513B7279C00C400D296C6 /* Bureaucrat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467513B5279C00C400D296C6 /* Bureaucrat.cpp */; };
+		467513BA279C00E900D296C6 /* ShrubberyCreationForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467513B8279C00E900D296C6 /* ShrubberyCreationForm.cpp */; };
+		467513BD279C010000D296C6 /* RobotomyRequestForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467513BB279C010000D296C6 /* RobotomyRequestForm.cpp */; };
+		46CA51832799A81500D173EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51822799A81500D173EB /* main.cpp */; };
+		46CA51902799A83000D173EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CA518F2799A83000D173EB /* main.cpp */; };
+		46CA519B2799A83A00D173EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CA519A2799A83A00D173EB /* main.cpp */; };
+		46CA51A62799A84300D173EB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51A52799A84300D173EB /* main.cpp */; };
+		46CA51AB2799A88B00D173EB /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51AA2799A88B00D173EB /* Makefile */; };
+		46CA51AE2799A8C700D173EB /* Bureaucrat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51AC2799A8C700D173EB /* Bureaucrat.cpp */; };
+		46CA51B12799A91D00D173EB /* Bureaucrat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51AF2799A91D00D173EB /* Bureaucrat.cpp */; };
+		46CA51B42799A92B00D173EB /* Form.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51B22799A92B00D173EB /* Form.cpp */; };
+		46CA51B62799A93F00D173EB /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51B52799A93F00D173EB /* Makefile */; };
+		46CA51B82799A99F00D173EB /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51B72799A99F00D173EB /* Makefile */; };
+		46CA51BB2799A9DE00D173EB /* PresidentialPardonForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46CA51B92799A9DE00D173EB /* PresidentialPardonForm.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46CA517D2799A81500D173EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		46CA518B2799A83000D173EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		46CA51962799A83A00D173EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		46CA51A12799A84300D173EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46156FFC279C5F540038A4FB /* ShrubberyCreationForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShrubberyCreationForm.cpp; sourceTree = "<group>"; };
+		46156FFD279C5F540038A4FB /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		46156FFE279C5F540038A4FB /* Bureaucrat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bureaucrat.cpp; sourceTree = "<group>"; };
+		46156FFF279C5F540038A4FB /* Form.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Form.hpp; sourceTree = "<group>"; };
+		46157000279C5F540038A4FB /* PresidentialPardonForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PresidentialPardonForm.cpp; sourceTree = "<group>"; };
+		46157001279C5F540038A4FB /* ShrubberyCreationForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ShrubberyCreationForm.hpp; sourceTree = "<group>"; };
+		46157002279C5F540038A4FB /* PresidentialPardonForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PresidentialPardonForm.hpp; sourceTree = "<group>"; };
+		46157003279C5F540038A4FB /* RobotomyRequestForm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RobotomyRequestForm.hpp; sourceTree = "<group>"; };
+		46157004279C5F540038A4FB /* RobotomyRequestForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobotomyRequestForm.cpp; sourceTree = "<group>"; };
+		46157005279C5F540038A4FB /* Bureaucrat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bureaucrat.hpp; sourceTree = "<group>"; };
+		46157006279C5F540038A4FB /* Form.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Form.cpp; sourceTree = "<group>"; };
+		4615700D279C63D50038A4FB /* Intern.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Intern.cpp; sourceTree = "<group>"; };
+		4615700E279C63D50038A4FB /* Intern.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Intern.hpp; sourceTree = "<group>"; };
+		467513B2279C009D00D296C6 /* Form.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Form.cpp; sourceTree = "<group>"; };
+		467513B3279C009D00D296C6 /* Form.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Form.hpp; sourceTree = "<group>"; };
+		467513B5279C00C400D296C6 /* Bureaucrat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bureaucrat.cpp; sourceTree = "<group>"; };
+		467513B6279C00C400D296C6 /* Bureaucrat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bureaucrat.hpp; sourceTree = "<group>"; };
+		467513B8279C00E900D296C6 /* ShrubberyCreationForm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShrubberyCreationForm.cpp; sourceTree = "<group>"; };
+		467513B9279C00E900D296C6 /* ShrubberyCreationForm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ShrubberyCreationForm.hpp; sourceTree = "<group>"; };
+		467513BB279C010000D296C6 /* RobotomyRequestForm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RobotomyRequestForm.cpp; sourceTree = "<group>"; };
+		467513BC279C010000D296C6 /* RobotomyRequestForm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RobotomyRequestForm.hpp; sourceTree = "<group>"; };
+		46CA517F2799A81500D173EB /* ex00 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex00; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CA51822799A81500D173EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		46CA518D2799A83000D173EB /* ex01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex01; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CA518F2799A83000D173EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		46CA51982799A83A00D173EB /* ex02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex02; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CA519A2799A83A00D173EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		46CA51A32799A84300D173EB /* ex03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ex03; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CA51A52799A84300D173EB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		46CA51AA2799A88B00D173EB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		46CA51AC2799A8C700D173EB /* Bureaucrat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bureaucrat.cpp; sourceTree = "<group>"; };
+		46CA51AD2799A8C700D173EB /* Bureaucrat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bureaucrat.hpp; sourceTree = "<group>"; };
+		46CA51AF2799A91D00D173EB /* Bureaucrat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bureaucrat.cpp; sourceTree = "<group>"; };
+		46CA51B02799A91D00D173EB /* Bureaucrat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bureaucrat.hpp; sourceTree = "<group>"; };
+		46CA51B22799A92B00D173EB /* Form.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Form.cpp; sourceTree = "<group>"; };
+		46CA51B32799A92B00D173EB /* Form.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Form.hpp; sourceTree = "<group>"; };
+		46CA51B52799A93F00D173EB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		46CA51B72799A99F00D173EB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		46CA51B92799A9DE00D173EB /* PresidentialPardonForm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PresidentialPardonForm.cpp; sourceTree = "<group>"; };
+		46CA51BA2799A9DE00D173EB /* PresidentialPardonForm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PresidentialPardonForm.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46CA517C2799A81500D173EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CA518A2799A83000D173EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CA51952799A83A00D173EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CA51A02799A84300D173EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46CA51762799A81500D173EB = {
+			isa = PBXGroup;
+			children = (
+				46CA51812799A81500D173EB /* ex00 */,
+				46CA518E2799A83000D173EB /* ex01 */,
+				46CA51992799A83A00D173EB /* ex02 */,
+				46CA51A42799A84300D173EB /* ex03 */,
+				46CA51802799A81500D173EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46CA51802799A81500D173EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46CA517F2799A81500D173EB /* ex00 */,
+				46CA518D2799A83000D173EB /* ex01 */,
+				46CA51982799A83A00D173EB /* ex02 */,
+				46CA51A32799A84300D173EB /* ex03 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46CA51812799A81500D173EB /* ex00 */ = {
+			isa = PBXGroup;
+			children = (
+				46CA51AA2799A88B00D173EB /* Makefile */,
+				46CA51822799A81500D173EB /* main.cpp */,
+				46CA51AC2799A8C700D173EB /* Bureaucrat.cpp */,
+				46CA51AD2799A8C700D173EB /* Bureaucrat.hpp */,
+			);
+			path = ex00;
+			sourceTree = "<group>";
+		};
+		46CA518E2799A83000D173EB /* ex01 */ = {
+			isa = PBXGroup;
+			children = (
+				46CA51B52799A93F00D173EB /* Makefile */,
+				46CA518F2799A83000D173EB /* main.cpp */,
+				46CA51AF2799A91D00D173EB /* Bureaucrat.cpp */,
+				46CA51B02799A91D00D173EB /* Bureaucrat.hpp */,
+				46CA51B22799A92B00D173EB /* Form.cpp */,
+				46CA51B32799A92B00D173EB /* Form.hpp */,
+			);
+			path = ex01;
+			sourceTree = "<group>";
+		};
+		46CA51992799A83A00D173EB /* ex02 */ = {
+			isa = PBXGroup;
+			children = (
+				46CA51B72799A99F00D173EB /* Makefile */,
+				46CA519A2799A83A00D173EB /* main.cpp */,
+				467513B5279C00C400D296C6 /* Bureaucrat.cpp */,
+				467513B6279C00C400D296C6 /* Bureaucrat.hpp */,
+				467513B2279C009D00D296C6 /* Form.cpp */,
+				467513B3279C009D00D296C6 /* Form.hpp */,
+				467513B8279C00E900D296C6 /* ShrubberyCreationForm.cpp */,
+				467513B9279C00E900D296C6 /* ShrubberyCreationForm.hpp */,
+				467513BB279C010000D296C6 /* RobotomyRequestForm.cpp */,
+				467513BC279C010000D296C6 /* RobotomyRequestForm.hpp */,
+				46CA51B92799A9DE00D173EB /* PresidentialPardonForm.cpp */,
+				46CA51BA2799A9DE00D173EB /* PresidentialPardonForm.hpp */,
+			);
+			path = ex02;
+			sourceTree = "<group>";
+		};
+		46CA51A42799A84300D173EB /* ex03 */ = {
+			isa = PBXGroup;
+			children = (
+				46156FFD279C5F540038A4FB /* Makefile */,
+				46CA51A52799A84300D173EB /* main.cpp */,
+				46156FFE279C5F540038A4FB /* Bureaucrat.cpp */,
+				46157005279C5F540038A4FB /* Bureaucrat.hpp */,
+				46157006279C5F540038A4FB /* Form.cpp */,
+				46156FFF279C5F540038A4FB /* Form.hpp */,
+				46157000279C5F540038A4FB /* PresidentialPardonForm.cpp */,
+				46157002279C5F540038A4FB /* PresidentialPardonForm.hpp */,
+				46157004279C5F540038A4FB /* RobotomyRequestForm.cpp */,
+				46157003279C5F540038A4FB /* RobotomyRequestForm.hpp */,
+				46156FFC279C5F540038A4FB /* ShrubberyCreationForm.cpp */,
+				46157001279C5F540038A4FB /* ShrubberyCreationForm.hpp */,
+				4615700D279C63D50038A4FB /* Intern.cpp */,
+				4615700E279C63D50038A4FB /* Intern.hpp */,
+			);
+			path = ex03;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46CA517E2799A81500D173EB /* ex00 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CA51862799A81500D173EB /* Build configuration list for PBXNativeTarget "ex00" */;
+			buildPhases = (
+				46CA517B2799A81500D173EB /* Sources */,
+				46CA517C2799A81500D173EB /* Frameworks */,
+				46CA517D2799A81500D173EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex00;
+			productName = ex00;
+			productReference = 46CA517F2799A81500D173EB /* ex00 */;
+			productType = "com.apple.product-type.tool";
+		};
+		46CA518C2799A83000D173EB /* ex01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CA51912799A83000D173EB /* Build configuration list for PBXNativeTarget "ex01" */;
+			buildPhases = (
+				46CA51892799A83000D173EB /* Sources */,
+				46CA518A2799A83000D173EB /* Frameworks */,
+				46CA518B2799A83000D173EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex01;
+			productName = ex01;
+			productReference = 46CA518D2799A83000D173EB /* ex01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		46CA51972799A83A00D173EB /* ex02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CA519C2799A83A00D173EB /* Build configuration list for PBXNativeTarget "ex02" */;
+			buildPhases = (
+				46CA51942799A83A00D173EB /* Sources */,
+				46CA51952799A83A00D173EB /* Frameworks */,
+				46CA51962799A83A00D173EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex02;
+			productName = ex02;
+			productReference = 46CA51982799A83A00D173EB /* ex02 */;
+			productType = "com.apple.product-type.tool";
+		};
+		46CA51A22799A84300D173EB /* ex03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CA51A72799A84300D173EB /* Build configuration list for PBXNativeTarget "ex03" */;
+			buildPhases = (
+				46CA519F2799A84300D173EB /* Sources */,
+				46CA51A02799A84300D173EB /* Frameworks */,
+				46CA51A12799A84300D173EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ex03;
+			productName = ex03;
+			productReference = 46CA51A32799A84300D173EB /* ex03 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46CA51772799A81500D173EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Erebus Balgruuf";
+				TargetAttributes = {
+					46CA517E2799A81500D173EB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					46CA518C2799A83000D173EB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					46CA51972799A83A00D173EB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					46CA51A22799A84300D173EB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 46CA517A2799A81500D173EB /* Build configuration list for PBXProject "ex00" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46CA51762799A81500D173EB;
+			productRefGroup = 46CA51802799A81500D173EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46CA517E2799A81500D173EB /* ex00 */,
+				46CA518C2799A83000D173EB /* ex01 */,
+				46CA51972799A83A00D173EB /* ex02 */,
+				46CA51A22799A84300D173EB /* ex03 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46CA517B2799A81500D173EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CA51AB2799A88B00D173EB /* Makefile in Sources */,
+				46CA51832799A81500D173EB /* main.cpp in Sources */,
+				46CA51AE2799A8C700D173EB /* Bureaucrat.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CA51892799A83000D173EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CA51B42799A92B00D173EB /* Form.cpp in Sources */,
+				46CA51902799A83000D173EB /* main.cpp in Sources */,
+				46CA51B62799A93F00D173EB /* Makefile in Sources */,
+				46CA51B12799A91D00D173EB /* Bureaucrat.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CA51942799A83A00D173EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CA51B82799A99F00D173EB /* Makefile in Sources */,
+				467513BA279C00E900D296C6 /* ShrubberyCreationForm.cpp in Sources */,
+				467513B4279C009D00D296C6 /* Form.cpp in Sources */,
+				46CA519B2799A83A00D173EB /* main.cpp in Sources */,
+				467513B7279C00C400D296C6 /* Bureaucrat.cpp in Sources */,
+				46CA51BB2799A9DE00D173EB /* PresidentialPardonForm.cpp in Sources */,
+				467513BD279C010000D296C6 /* RobotomyRequestForm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CA519F2799A84300D173EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4615700A279C5F540038A4FB /* PresidentialPardonForm.cpp in Sources */,
+				46157008279C5F540038A4FB /* Makefile in Sources */,
+				4615700C279C5F540038A4FB /* Form.cpp in Sources */,
+				4615700F279C63D50038A4FB /* Intern.cpp in Sources */,
+				4615700B279C5F540038A4FB /* RobotomyRequestForm.cpp in Sources */,
+				46157009279C5F540038A4FB /* Bureaucrat.cpp in Sources */,
+				46CA51A62799A84300D173EB /* main.cpp in Sources */,
+				46157007279C5F540038A4FB /* ShrubberyCreationForm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		46CA51842799A81500D173EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		46CA51852799A81500D173EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46CA51872799A81500D173EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46CA51882799A81500D173EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46CA51922799A83000D173EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46CA51932799A83000D173EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46CA519D2799A83A00D173EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46CA519E2799A83A00D173EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46CA51A82799A84300D173EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46CA51A92799A84300D173EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46CA517A2799A81500D173EB /* Build configuration list for PBXProject "ex00" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CA51842799A81500D173EB /* Debug */,
+				46CA51852799A81500D173EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CA51862799A81500D173EB /* Build configuration list for PBXNativeTarget "ex00" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CA51872799A81500D173EB /* Debug */,
+				46CA51882799A81500D173EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CA51912799A83000D173EB /* Build configuration list for PBXNativeTarget "ex01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CA51922799A83000D173EB /* Debug */,
+				46CA51932799A83000D173EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CA519C2799A83A00D173EB /* Build configuration list for PBXNativeTarget "ex02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CA519D2799A83A00D173EB /* Debug */,
+				46CA519E2799A83A00D173EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CA51A72799A84300D173EB /* Build configuration list for PBXNativeTarget "ex03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CA51A82799A84300D173EB /* Debug */,
+				46CA51A92799A84300D173EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46CA51772799A81500D173EB /* Project object */;
+}
